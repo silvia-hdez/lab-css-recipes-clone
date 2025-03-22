@@ -18,7 +18,34 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 /*  Set the font */
 body {
   font-family: "Helvetica", sans-serif;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.header {
+  background-color: red;
+  width: 80%;
+  height: 700px;
+  margin-top: 50px
+ 
+}
+
+.head-img {
+  width: 100%;
+
+}
+
+h1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
